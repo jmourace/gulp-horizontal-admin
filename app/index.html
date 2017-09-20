@@ -11,19 +11,21 @@
         <![endif]-->
     <title>FENIX GESTOR</title>
     <link rel="stylesheet" href="/assets/css/deps.min.css">
-    <link rel="stylesheet" href="/assets/css/app.min.css">            
+    <link rel="stylesheet" href="/assets/css/app.min.css">
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
 </head>
+
 <body>
     <div ng-include="'/template/logo-header.html'"></div>
-    <section class="menu-section" ng-include="'/template/menu-section.html'"></section>  
+    <section class="menu-section" ng-include="'/template/menu-section.html'"></section>
     <div class="content-wrapper" ui-view></div>
     <section class="footer-section" ng-include="'/template/footer.html'"></section>
 
     <script src="/assets/js/deps.min.js"></script>
     <script src="/assets/js/app.min.js"></script>
+    <!-- <script src="/template/custom.js"></script> -->
 </body>
 
 </html>

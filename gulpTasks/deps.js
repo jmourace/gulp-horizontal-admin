@@ -7,15 +7,14 @@ gulp.task('deps', ['deps.js', 'deps.css', 'deps.fonts'])
 
 gulp.task('deps.js', function () {
     gulp.src([
-        'node_modules/angular/angular.min.js',
+        'template-horizontal/assets/js/jquery-1.10.2.js',
+        'template-horizontal/assets/js/dataTables/jquery.dataTables.js',
+        'node_modules/angular/angular.min.js',        
         'node_modules/angular-ui-router/release/angular-ui-router.min.js',
         'node_modules/angular-animate/angular-animate.min.js',
-        'node_modules/angular-toastr/dist/angular-toastr.tpls.min.js',
-        'template-horizontal/assets/js/jquery-1.10.2.js',
-        'template-horizontal/assets/js/bootstrap.js',
-        'template-horizontal/assets/js/dataTables/jquery.dataTables.js',
-        'template-horizontal/assets/js/dataTables/dataTables.bootstrap.js',
-        'template-horizontal/assets/js/custom.js'
+        'node_modules/angular-toastr/dist/angular-toastr.tpls.min.js',        
+        'template-horizontal/assets/js/bootstrap.js',    
+        'template-horizontal/assets/js/dataTables/dataTables.bootstrap.js'
     ])
         .pipe(uglify())
         .pipe(concat('deps.min.js'))
@@ -27,7 +26,7 @@ gulp.task('deps.css', function () {
         'node_modules/angular-toastr/dist/angular-toastr.min.css',
         'node_modules/font-awesome/css/font-awesome.min.css',
         'template-horizontal/assets/css/bootstrap.css',
-        'template-horizontal/assets/css/font-awesome.css',
+        'template-horizontal/assets/css/font-awesome.css',        
         'template-horizontal/assets/js/dataTables/dataTables.bootstrap.css',
         'template-horizontal/assets/css/style.css'
     ])
