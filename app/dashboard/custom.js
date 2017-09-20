@@ -1,1 +1,1 @@
-﻿$('#dataTables-payouts').dataTable();
+﻿// $('#dataTables-payouts').dataTable();

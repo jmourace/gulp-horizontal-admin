@@ -49,7 +49,7 @@
                 </div>
                 <div class="panel-body">
                     <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover" id="dataTables-payouts">
+                        <table class="table table-striped table-bordered table-hover" id="tblPayouts">
                             <thead>
                                 <tr>
                                     <th>ACCOUNT</th>
@@ -77,3 +77,8 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#tblPayouts").dataTable();
+    })
+</script>
