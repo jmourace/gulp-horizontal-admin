@@ -1,5 +1,5 @@
 (function(){
-    angular.module('fenixGestor', [
+    angular.module('webGestor', [
        'ui.router',
        'ngAnimate',
        'toastr'

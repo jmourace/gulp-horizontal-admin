@@ -1,9 +1,9 @@
 (function(){
-    angular.module('fenixGestor').controller('dashboardController', [      
+    angular.module('webGestor').controller('dashboardController', [      
         dashboardController
     ])
 
-    function dashboardController(DTOptionsBuilder){
+    function dashboardController(){
         const vm = this       
     }
 })()

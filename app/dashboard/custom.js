@@ -1,1 +1,0 @@
-﻿// $('#dataTables-payouts').dataTable();
